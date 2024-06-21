@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Formation1706</groupId>
+  <artifactId>Formation1706</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <!-- pom est fichier maven qui nous permet de configurer notre projet de dévelopement à travers des dépendances pour télécharger et ajouter des frameworks dans le projet -->
+  <dependencies>
+    <!-- Selenium -->
+   <dependency>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-java</artifactId>
+     <version>4.11.0</version>
+  </dependency>
+      <!-- Cucumber -->
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.12.0</version>
+    </dependency>
+   
+  </dependencies>
+ 
+  
+</project>
